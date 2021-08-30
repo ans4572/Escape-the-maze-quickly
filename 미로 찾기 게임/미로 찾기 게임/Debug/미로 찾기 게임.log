@@ -1,0 +1,31 @@
+﻿빌드 시작: 2021-08-29 오후 5:26:27
+로깅의 세부 정보 표시가 Normal(으)로 설정되었습니다.     1>2 노드의 "C:\Users\pc\source\repos\미로 찾기 게임\미로 찾기 게임\미로 찾기 게임.vcxproj" 프로젝트(Build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\미로 찾기 게임.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Maze.cpp
+         Maze.cpp
+     1>C:\Users\pc\source\repos\미로 찾기 게임\미로 찾기 게임\MazeGenerator.h(284,13): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pc\source\repos\미로 찾기 게임\Debug\미로 찾기 게임.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\pc\source\repos\미로 찾기 게임\Debug\미로 찾기 게임.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pc\source\repos\미로 찾기 게임\Debug\미로 찾기 게임.lib" /MACHINE:X86 Debug\GameManager.obj
+         Debug\main.obj
+         Debug\Maze.obj
+         Debug\P2013111995.obj
+         Debug\p2015112257.obj
+         Debug\Point.obj
+         미로 찾기 게임.vcxproj -> C:\Users\pc\source\repos\미로 찾기 게임\Debug\미로 찾기 게임.exe
+       FinalizeBuildStatus:
+         "Debug\미로 찾기 게임.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\미로 찾기 게임.tlog\미로 찾기 게임.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\pc\source\repos\미로 찾기 게임\미로 찾기 게임\미로 찾기 게임.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+       "C:\Users\pc\source\repos\미로 찾기 게임\미로 찾기 게임\미로 찾기 게임.vcxproj"(Build 대상)(1) ->
+       (ClCompile 대상) -> 
+         C:\Users\pc\source\repos\미로 찾기 게임\미로 찾기 게임\MazeGenerator.h(284,13): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+
+    경고 1개
+    오류 0개
+
+경과 시간: 00:00:02.40

@@ -13,10 +13,15 @@
 
 # 3. 게임 엔진 설명
 -GameManager: 게임 전체적인 것을 담당.
+
 -main: 메인 함수, GameManager 호출
+
 -Maze: 게임 중 미로 맵에 대한 구현들을 담당
+
 -Point: 좌표를 담당
+
 -Action: 상 하 좌 우로 이동 할 때의 enum
+
 -MazeGenerator: 미로를 랜덤으로 생성. 출처: https://codereview.stackexchange.com/questions/135443/c-maze-generator
 
 
